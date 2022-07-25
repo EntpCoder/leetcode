@@ -9,7 +9,7 @@ import java.util.Map;
  * @author Yang Song
  * @date 2022/7/22 16:23
  */
-public class Q20 {
+public class Q020 {
     /**
      * 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串是否有效。
      * 有效字符串需满足：
