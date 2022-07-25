@@ -6,7 +6,7 @@ import com.songyang.util.node.ListNodeUtils;
  * @author Yang Song
  * @date 2022/7/25 10:03
  */
-public class Q2 {
+public class Q002 {
     /**
      * 给你两个非空 的链表，表示两个非负的整数。它们每位数字都是按照逆序的方式存储的，并且每个节点只能存储一位数字。
      *
