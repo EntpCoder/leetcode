@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author Yang Song
  * @date 2022/7/25 9:04
  */
-public class Q66 {
+public class Q066 {
     /**
      * 给定一个由 整数 组成的 非空 数组所表示的非负整数，在该数的基础上加一。
      *
