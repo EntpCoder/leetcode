@@ -7,7 +7,7 @@ import java.util.Deque;
  * @author Yang Song
  * @date 2022/7/22 14:19
  */
-public class Q71 {
+public class Q071 {
     /**
      * 力扣71.简化路径
      * 给你一个字符串 path ，表示指向某一文件或目录的Unix 风格 绝对路径 （以 '/' 开头），请你将其转化为更加简洁的规范路径。
