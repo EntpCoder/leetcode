@@ -33,7 +33,7 @@ public class Q2Pro {
             int n1 = l1 != null ? l1.val : 0;
             int n2 = l2 != null ? l2.val : 0;
             int sum = n1 + n2 + carry;
-            // 第一次 给一个头节点
+            // 第一次 给一个头节点 之后头节点不动
             if(head == null){
                 head = tail = new ListNode(sum%10);
             }else{
