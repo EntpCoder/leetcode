@@ -17,7 +17,7 @@ public class Q24 {
      * 1.前置节点连接到node2上
      * 2.node1.next = node2.next;
      * 3.node2.next = node1
-     * 4.将node1保存成前置节点 用于下一次交换
+     * 4.将node1保存成前置节点 用于下一次交换 连接node2
      */
     public static ListNode swapPairs(ListNode head) {
         if(head == null){
