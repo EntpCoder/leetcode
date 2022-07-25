@@ -25,6 +25,13 @@ public class Q2Pro {
         if(l1 == null || l2 == null){
             return l1 == null ? l2 : l1;
         }
+        /*
+            1.都没有进位 链表每位相加
+            2.除最高位有进位 链表每位相加并且加上进位
+            3.最高位进位 链表尾 +1
+            4.链表长度不一样 以长的为准,短的剩余部分当成0处理
+            5.每次将值接到当前节点的下一位(头节点需要单独处理)
+         */
         ListNode head = null,tail = null;
         // 进位
         int carry = 0;
