@@ -27,10 +27,14 @@ public class Q150 {
         Deque<Integer> stack = new ArrayDeque<>();
         for(String token : tokens){
             if(isOperator(token)){
-
+                Integer b = stack.pop();
+                Integer a = stack.pop();
+                stack.push(compute(a,b,token));
+            }else{
+                stack.push(Integer.valueOf(token));
             }
         }
-        return 0;
+        return stack.pop();
     }
     private static int compute(int a,int b,String operator){
         switch (operator){
@@ -42,6 +46,11 @@ public class Q150 {
     }
     private static boolean isOperator(String token){
         return "+".equals(token) || "-".equals(token) || "*".equals(token) || "/".equals(token);
+    }
+
+    public static void main(String[] args) {
+        String[] tokens = {"10","6","9","3","+","-11","*","/","*","17","+","5","+"};
+        System.out.println(evalRPN(tokens));
     }
 
 }
