@@ -30,10 +30,6 @@ public class Q232MyQueue {
      * 队列头
      */
     private int head;
-    public Q232MyQueue() {
-
-    }
-
     public void push(int x) {
         // 如果stackA为空的时候第一个加入stackA的元素就是队首
         if(stackA.isEmpty()){
