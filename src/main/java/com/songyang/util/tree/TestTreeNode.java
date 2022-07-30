@@ -32,7 +32,6 @@ public class TestTreeNode {
         System.out.print("中序遍历:");
         midOrderPrint(a);
     }
-
     /**
      * 深度优先 前序遍历
      * @param root 根节点
